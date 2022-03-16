@@ -1,0 +1,1123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(./imges/copyright-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 85%;
+    height: 95%;
+    background-color: rgba(37, 39, 39, 0.342);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    display: block;
+}
+
+.header .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 48%;
+}
+
+.header .box1 .name {
+    color: white;
+    font-size: 30px;
+}
+
+.header .box1 p {
+    font-size: 25px;
+    color: darkcyan;
+    font-weight: 600;
+    text-align: center;
+}
+
+.avatarBox {
+    width: 17%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px rgba(255, 0, 0, 0);
+    border-left: solid 8px rgb(255, 255, 255);
+    border-right: solid 8px rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+header .box1 .avatarBox img {
+    width: 14%;
+    height: 27%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 4444;
+    position: absolute;
+}
+
+.header .box2 {
+    position: relative;
+    width: 100%;
+    height: 52%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* progres */
+.SkillContainer {
+    width: 70%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: -1%;
+}
+
+.skills {
+    text-align: right;
+    height: 100%;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.Progres .skillBox {
+    margin-top: 7%;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Progres .skillBox .contentBox {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Progres .skillBox .contentBox p {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+}
+.html {width: 90%;background-color: darkcyan;border-radius: 0 20px 20px 0;animation: skill1 2s ease;
+}
+.css {width: 90%;background-color: darkcyan;border-radius: 0 20px 20px 0;animation: skill2 2.5s ease;
+}
+.js { width: 65%;background-color: darkcyan;border-radius: 0 20px 20px 0;animation: skill3 3s ease;
+}
+.react {width: 70%;background-color: darkcyan;border-radius: 0 20px 20px 0;animation: skill4 3.5s ease;
+}
+.Scss {width: 50%;background-color: darkcyan;border-radius: 0 20px 20px 0;animation: skill5 4s ease;
+}
+.boots {width: 80%;background-color: darkcyan;border-radius: 0 20px 20px 0;animation: skill6 4.5s ease;
+}
+
+@keyframes skill1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes skill2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes skill3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes skill4 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes skill5 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes skill6 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+/* progres end */
+
+
+/* aboutBox */
+.aboutBox {
+    width: 30%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 0 50px 0 0;
+    border: solid 1px transparent;
+    border-right: solid 1px white;
+}
+
+/* aboutBox  end*/
+
+/* progres */
+.Progres {
+    width: 40%;
+    height: 100%;
+    border: inset 2px transparent;
+    padding: 25px;
+    border-radius: 50px 50px 0 0;
+    border: solid 1px transparent;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+}
+
+/* progres end */
+
+/* Contact */
+.contact {
+    width: 30%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 50px 0 0 0;
+    border: solid 1px transparent;
+    border-left: solid 1px white;
+}
+
+/* Contact end */
+.aboutText {
+    color: darkcyan;
+    font-size: 25px;
+}
+
+.aboutBox p {
+    color: white;
+    font-size: 14px;
+}
+
+.aboutBox .Qiziqish {
+    color: white;
+    font-size: 15px;
+    margin: -0%;
+}
+
+hr {
+    color: white;
+    height: 3px;
+}
+
+.numBox .emailBox .icon .contactIcon {
+    color: white;
+    font-size: 20px;
+    width: 50px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+.icon {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+
+.emailBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.emailBox:hover .icon {
+    color: rgb(204, 203, 203);
+}
+
+.hisobQuti {
+    width: 80%;
+    height: 30px;
+    margin: 7% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hisobQuti a {
+    text-decoration: none;
+    color: white;
+}
+
+.hisobQuti a i {
+    font-size: 30px;
+    color: darkcyan;
+}
+
+.hisobQuti a i:hover {
+    color: white;
+}
+
+.header .portfolio {
+    font-size: 20px;
+    color: white;
+    background-color: darkcyan;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: -100%;
+    left: 88%;
+    cursor: pointer;
+}
+
+.header .portfolio:hover .strelka {
+    position: relative;
+    left: 5px;
+}
+
+/* Portfolio container */
+.section {
+    width: 80%;
+    height: 70%;
+    background-color: rgba(37, 39, 39, 0.342);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    display: none;
+}
+
+.exit {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    top: 3%;
+    cursor: pointer;
+    left: 4%;
+}
+
+.PortBox {
+    width: 100%;
+    height: 80%;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section .PortBox a {
+    width: 25%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.section .PortBox a:hover .boxss .scall img {
+    transform: scale(1.2);
+}
+
+.section .PortBox a .boxss {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section .PortBox .boxss .scall {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-bottom: solid rgba(109, 106, 106, 0.61) 0.0002px;
+}
+
+.section .PortBox .boxss .scall img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform ease 0.4s;
+}
+
+.exit:hover {
+    color: darkcyan;
+}
+
+.boxss .clonName {
+    font-size: 25px;
+    position: relative;
+    top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.boxss .haqida {
+    color: darkcyan;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.boxss .bi-heart-fill {
+    position: relative;
+    left: 40%;
+    top: 8%;
+    font-size: 20px;
+    color: red;
+}
+
+.boxss .bi-hand-thumbs-up-fill {
+    position: relative;
+    top: -3.5%;
+    font-size: 20px;
+    width: 90%;
+    border-top: solid silver 0.1px;
+    padding-left: 66%;
+    padding-top: 10px;
+}
+
+/* Portfolio container end*/
+
+/* Responsive */
+
+@media(max-width: 768px) {
+    body {
+        width: 100%;
+        height: 300vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        background: url(./imges/copyright-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* header responsive */
+    .header {
+        overflow: scroll;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        background-color: rgba(0, 0, 0, 0.26);
+        backdrop-filter: blur(0px);
+        box-sizing: border-box;
+    }
+
+    .header .box1 .name {
+        color: white;
+        font-size: 25px;
+    }
+
+    .header .box1 p {
+        font-size: 20px;
+        color: darkcyan;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .header .box2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avatarBox {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgBox {
+        display: none;
+    }
+
+    header .box1 .avatarBox img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+        z-index: 4444;
+        padding: 10px;
+        border: solid 1px transparent;
+        border-left: solid 5px white;
+        border-right: solid 5px white;
+    }
+
+    .aboutBox {
+        width: 90%;
+        height: 100%;
+        padding: 15px;
+        border-radius: 0 50px 0 0;
+        border-top: solid 1px white;
+        border-right: solid 1px white;
+        margin-top: 0px;
+    }
+
+    /* aboutBox  end*/
+
+    /* progres */
+    .Progres {
+        width: 90%;
+        height: 100%;
+        border: inset 2px transparent;
+        padding: 15px;
+        border-radius: 0px 50px 0 0;
+        border: solid 1px transparent;
+        border-right: solid 1px white;
+        border-top: solid 1px white;
+        margin-top: 40px;
+    }
+
+    /* progres end */
+
+    /* Contact */
+    .contact {
+        width: 90%;
+        height: 100%;
+        padding: 15px;
+        border-radius: 0px 50px 0px 0;
+        border-top: solid 1px white;
+        border-right: solid 1px white;
+        border-left: solid 1px transparent;
+        margin-top: 40px;
+    }
+
+    .header .portfolio {
+        display: none;
+    }
+
+    .exit {
+        display: none;
+    }
+
+
+    .Progres .skillBox .contentBox p {
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 700;
+        justify-content: center;
+    }
+
+    .Progres .skillBox {
+        margin-top: 10%;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .Progres .skillBox .contentBox {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header .box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 48%;
+        margin-top: -10%;
+    }
+
+    .SkillContainer {
+        width: 70%;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: -1%;
+    }
+
+    /* header responsive end */
+
+    /* section card */
+    .section {
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+        background-color: rgba(0, 0, 0, 0.26);
+        backdrop-filter: blur(0px);
+    }
+
+    .PortBox {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .section .PortBox a {
+        width: 80%;
+        height: 30%;
+        margin: 20px;
+    }
+
+    .section {
+        display: block;
+    }
+
+    /* section card end */
+}
+
+@media(min-width:1040px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background: url(./imges/copyright-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header {
+        width: 85%;
+        height: 95%;
+        background-color: rgba(37, 39, 39, 0.342);
+        backdrop-filter: blur(15px);
+        overflow: hidden;
+        display: block;
+    }
+
+    .header .box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 48%;
+    }
+
+    .header .box1 .name {
+        color: white;
+        font-size: 30px;
+    }
+
+    .header .box1 p {
+        font-size: 25px;
+        color: darkcyan;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .avatarBox {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgBox {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 3px rgba(255, 0, 0, 0);
+        border-left: solid 8px rgb(255, 255, 255);
+        border-right: solid 8px rgb(255, 255, 255);
+        border-radius: 50%;
+        animation: animate 3s linear infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    header .box1 .avatarBox img {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+        z-index: 4444;
+        position: absolute;
+    }
+
+    .header .box2 {
+        position: relative;
+        width: 100%;
+        height: 52%;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* progres */
+    .SkillContainer {
+        width: 70%;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: -1%;
+    }
+
+    .skills {
+        text-align: right;
+        height: 100%;
+        position: relative;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        padding-right: 10px;
+    }
+
+    .Progres .skillBox {
+        margin-top: 7%;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .Progres .skillBox .contentBox {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Progres .skillBox .contentBox p {
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+        justify-content: center;
+    }
+
+    .html {
+        width: 90%;
+        background-color: darkcyan;
+        border-radius: 0 20px 20px 0;
+        animation: skill1 2s ease;
+    }
+
+    .css {
+        width: 90%;
+        background-color: darkcyan;
+        border-radius: 0 20px 20px 0;
+        animation: skill2 2.5s ease;
+    }
+
+    .js {
+        width: 65%;
+        background-color: darkcyan;
+        border-radius: 0 20px 20px 0;
+        animation: skill3 3s ease;
+    }
+
+    .react {
+        width: 70%;
+        background-color: darkcyan;
+        border-radius: 0 20px 20px 0;
+        animation: skill4 3.5s ease;
+    }
+
+    .Scss {
+        width: 50%;
+        background-color: darkcyan;
+        border-radius: 0 20px 20px 0;
+        animation: skill5 4s ease;
+    }
+
+    .boots {
+        width: 80%;
+        background-color: darkcyan;
+        border-radius: 0 20px 20px 0;
+        animation: skill6 4.5s ease;
+    }
+
+    @keyframes skill1 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 90%;
+        }
+    }
+
+    @keyframes skill2 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 90%;
+        }
+    }
+
+    @keyframes skill3 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 65%;
+        }
+    }
+
+    @keyframes skill4 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 70%;
+        }
+    }
+
+    @keyframes skill5 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 50%;
+        }
+    }
+
+    @keyframes skill6 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 80%;
+        }
+    }
+
+    /* progres end */
+
+
+    /* aboutBox */
+    .aboutBox {
+        width: 30%;
+        height: 100%;
+        padding: 25px;
+        border-radius: 0 50px 0 0;
+        border: solid 1px transparent;
+        border-right: solid 1px white;
+    }
+
+    /* aboutBox  end*/
+
+    /* progres */
+    .Progres {
+        width: 40%;
+        height: 100%;
+        border: inset 2px transparent;
+        padding: 25px;
+        border-radius: 50px 50px 0 0;
+        border: solid 1px transparent;
+        border-right: solid 1px white;
+        border-left: solid 1px white;
+    }
+
+    /* progres end */
+
+    /* Contact */
+    .contact {
+        width: 30%;
+        height: 100%;
+        padding: 25px;
+        border-radius: 50px 0 0 0;
+        border: solid 1px transparent;
+        border-left: solid 1px white;
+    }
+
+    /* Contact end */
+    .aboutText {
+        color: darkcyan;
+        font-size: 25px;
+    }
+
+    .aboutBox p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .aboutBox .Qiziqish {
+        color: white;
+        font-size: 15px;
+        margin: -0%;
+    }
+
+    hr {
+        color: white;
+        height: 3px;
+    }
+
+    .numBox .emailBox .icon .contactIcon {
+        color: white;
+        font-size: 20px;
+        width: 50px;
+        height: 0px;
+        border-radius: 50%;
+    }
+
+    .icon {
+        text-decoration: none;
+        margin-left: 15px;
+        color: white;
+    }
+
+    .emailBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .emailBox:hover .icon {
+        color: rgb(204, 203, 203);
+    }
+
+    .hisobQuti {
+        width: 80%;
+        height: 30px;
+        margin: 7% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .hisobQuti a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .hisobQuti a i {
+        font-size: 30px;
+        color: darkcyan;
+    }
+
+    .hisobQuti a i:hover {
+        color: white;
+    }
+
+    .header .portfolio {
+        font-size: 20px;
+        color: white;
+        background-color: darkcyan;
+        width: 150px;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        top: -100%;
+        left: 88%;
+        cursor: pointer;
+    }
+
+    .header .portfolio:hover .strelka {
+        position: relative;
+        left: 5px;
+    }
+
+    /* Portfolio container */
+    .section {
+        width: 80%;
+        height: 70%;
+        background-color: rgba(37, 39, 39, 0.342);
+        backdrop-filter: blur(15px);
+        overflow: hidden;
+        display: none;
+    }
+
+    .exit {
+        font-size: 30px;
+        color: white;
+        font-weight: 900;
+        position: relative;
+        top: 3%;
+        cursor: pointer;
+        left: 4%;
+    }
+
+    .PortBox {
+        width: 100%;
+        height: 80%;
+        margin: 2% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section .PortBox a {
+        width: 25%;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .section .PortBox a:hover .boxss .scall img {
+        transform: scale(1.2);
+    }
+
+    .section .PortBox a .boxss {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .section .PortBox .boxss .scall {
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        border-bottom: solid rgba(109, 106, 106, 0.61) 0.0002px;
+    }
+
+    .section .PortBox .boxss .scall img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform ease 0.4s;
+    }
+
+    .exit:hover {
+        color: darkcyan;
+    }
+
+    .boxss .clonName {
+        font-size: 25px;
+        position: relative;
+        top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .boxss .haqida {
+        color: darkcyan;
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .boxss .bi-heart-fill {
+        position: relative;
+        left: 40%;
+        top: 8%;
+        font-size: 20px;
+        color: red;
+    }
+
+    .boxss .bi-hand-thumbs-up-fill {
+        position: relative;
+        top: -3.5%;
+        font-size: 20px;
+        width: 90%;
+        border-top: solid silver 0.1px;
+        padding-left: 66%;
+        padding-top: 10px;
+    }
+}
